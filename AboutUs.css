@@ -1,0 +1,94 @@
+/* Add this to your CSS file or style section */
+.ltn__feature-item {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .background-link {
+    text-decoration: none; /* Remove default link styling */
+  }
+  
+  .background-image {
+     background-image: url('images/clean-modern-aluminium-windows-with-double-glazing-wooden-wall-generative-ai_124507-78760.jpg');
+    background-size: cover;  /* Adjust based on your preference */
+    background-position: center; /* Adjust based on your preference */
+    background-repeat: no-repeat;
+    height: 50vh;  /* Adjust based on your preference */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Arrange link texts vertically */
+  }
+  
+  .link-text {
+    color: white; /* Set the color you prefer */
+    font-size: 1rem; /* Adjust based on your preference */
+    margin: 10px 0; /* Adjust based on your preference */
+    text-decoration: none; /* Remove default link styling */
+  }
+  .link-text:hover  {
+    color: #ff4e00;
+  }
+  
+  
+  .ltn__feature-item:hover {
+    transform: scale(1.05); /* Increase the scale for a zoom effect on hover */
+    box-shadow: 0 0 20px rgba(255, 94, 21, 0.5); /* Orange glow shadow on hover */
+  }
+  
+  .ltn__feature-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .ltn__feature-info {
+    padding: 20px;
+  }
+  
+  /* Rest of your existing styles */
+  .rounded-circle-hover:hover {
+    box-shadow: 0 0 10px rgba(255, 94, 21, 0.5);
+  }
+  .ltn__card-hover {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .ltn__card-hover:hover {
+    box-shadow: 0 4px 8px rgba(255, 94, 21, 0.5); /* Orange shadow */
+    transform: translateY(-5px); /* Adjust the amount of lift on hover */
+    background-color: #ebbe83; /* Orange background */
+  }
+  .verticalLine {
+    height: 100%;
+    border-left: 2px solid #ff4e00;
+    margin-right: 10px;
+  }
+  
+  .secondaryTextContainer {
+    display: flex;
+    align-items: center;
+  }
+  /* Add a class to the parent container to apply styles */
+.text-container {
+  text-align: justify;
+}
+
+/* Additional styles for the ul and li elements to remove default bullet points */
+.text-container ul {
+
+  margin: 0;
+  padding: 0;
+}
+
+.text-container li {
+  margin-bottom: 10px;
+}
+
+/* Adjust the overall width or max-width of the container as needed */
+.text-container {
+  max-width: 800px; /* Adjust the value as needed */
+  margin: 0 auto; /* Center the container */
+}

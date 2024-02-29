@@ -1,0 +1,58 @@
+[19-Feb-2024 13:24:35 UTC] PHP Warning:  move_uploaded_file(carouselimages/Untitled design (11) (1).png4769.png): Failed to open stream: No such file or directory in /home/srisuryo/public_html/admin/carousel.php on line 69
+[19-Feb-2024 13:24:35 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php1ugQzR' to 'carouselimages/Untitled design (11) (1).png4769.png' in /home/srisuryo/public_html/admin/carousel.php on line 69
+[19-Feb-2024 13:24:35 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/srisuryo/public_html/admin/carousel.php:89
+Stack trace:
+#0 /home/srisuryo/public_html/admin/carousel.php(89): mysqli->query('SELECT carousel...')
+#1 {main}
+  thrown in /home/srisuryo/public_html/admin/carousel.php on line 89
+[19-Feb-2024 13:24:57 UTC] PHP Warning:  move_uploaded_file(carouselimages/Untitled design (11) (1).png4300.png): Failed to open stream: No such file or directory in /home/srisuryo/public_html/admin/carousel.php on line 69
+[19-Feb-2024 13:24:57 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpScnmlP' to 'carouselimages/Untitled design (11) (1).png4300.png' in /home/srisuryo/public_html/admin/carousel.php on line 69
+[19-Feb-2024 13:24:57 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/srisuryo/public_html/admin/carousel.php:89
+Stack trace:
+#0 /home/srisuryo/public_html/admin/carousel.php(89): mysqli->query('SELECT carousel...')
+#1 {main}
+  thrown in /home/srisuryo/public_html/admin/carousel.php on line 89
+[19-Feb-2024 13:25:11 UTC] PHP Warning:  move_uploaded_file(carouselimages/Untitled design (14).png2292.png): Failed to open stream: No such file or directory in /home/srisuryo/public_html/admin/carousel.php on line 69
+[19-Feb-2024 13:25:11 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpMUOdxy' to 'carouselimages/Untitled design (14).png2292.png' in /home/srisuryo/public_html/admin/carousel.php on line 69
+[19-Feb-2024 13:25:11 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/srisuryo/public_html/admin/carousel.php:89
+Stack trace:
+#0 /home/srisuryo/public_html/admin/carousel.php(89): mysqli->query('SELECT carousel...')
+#1 {main}
+  thrown in /home/srisuryo/public_html/admin/carousel.php on line 89
+[19-Feb-2024 13:25:58 UTC] PHP Warning:  move_uploaded_file(clientlogos/WhatsApp Image 2024-02-19 at 3.49.54 PM (2).jpeg5892.jpeg): Failed to open stream: No such file or directory in /home/srisuryo/public_html/admin/clientImages.php on line 56
+[19-Feb-2024 13:25:58 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php6xEAmG' to 'clientlogos/WhatsApp Image 2024-02-19 at 3.49.54 PM (2).jpeg5892.jpeg' in /home/srisuryo/public_html/admin/clientImages.php on line 56
+[19-Feb-2024 13:32:47 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/srisuryo/public_html/admin/carousel.php:89
+Stack trace:
+#0 /home/srisuryo/public_html/admin/carousel.php(89): mysqli->query('SELECT carousel...')
+#1 {main}
+  thrown in /home/srisuryo/public_html/admin/carousel.php on line 89
+[19-Feb-2024 13:33:02 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/srisuryo/public_html/admin/carousel.php:89
+Stack trace:
+#0 /home/srisuryo/public_html/admin/carousel.php(89): mysqli->query('SELECT carousel...')
+#1 {main}
+  thrown in /home/srisuryo/public_html/admin/carousel.php on line 89
+[19-Feb-2024 13:33:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'srisuryo_srisuryodaya.Category' doesn't exist in /home/srisuryo/public_html/admin/subcatgeories.php:34
+Stack trace:
+#0 /home/srisuryo/public_html/admin/subcatgeories.php(34): mysqli->query('SELECT category...')
+#1 {main}
+  thrown in /home/srisuryo/public_html/admin/subcatgeories.php on line 34
+[19-Feb-2024 13:33:34 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/srisuryo/public_html/admin/carousel.php:89
+Stack trace:
+#0 /home/srisuryo/public_html/admin/carousel.php(89): mysqli->query('SELECT carousel...')
+#1 {main}
+  thrown in /home/srisuryo/public_html/admin/carousel.php on line 89
+[19-Feb-2024 13:33:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'srisuryo_srisuryodaya.Category' doesn't exist in /home/srisuryo/public_html/admin/subcatgeories.php:34
+Stack trace:
+#0 /home/srisuryo/public_html/admin/subcatgeories.php(34): mysqli->query('SELECT category...')
+#1 {main}
+  thrown in /home/srisuryo/public_html/admin/subcatgeories.php on line 34
+[19-Feb-2024 13:34:32 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/srisuryo/public_html/admin/carousel.php:89
+Stack trace:
+#0 /home/srisuryo/public_html/admin/carousel.php(89): mysqli->query('SELECT carousel...')
+#1 {main}
+  thrown in /home/srisuryo/public_html/admin/carousel.php on line 89
+[19-Feb-2024 13:34:45 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/srisuryo/public_html/admin/carousel.php:89
+Stack trace:
+#0 /home/srisuryo/public_html/admin/carousel.php(89): mysqli->query('SELECT carousel...')
+#1 {main}
+  thrown in /home/srisuryo/public_html/admin/carousel.php on line 89
